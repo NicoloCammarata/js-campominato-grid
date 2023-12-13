@@ -15,3 +15,7 @@
 #griglia{
     padding: 0 100px;
 }
+
+.clicked{
+    background-color: aquamarine;
+}

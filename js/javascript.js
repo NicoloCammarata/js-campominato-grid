@@ -22,6 +22,12 @@ for(let i = 1; i <= 100; i++){
     
     grid.append(newCell)
 
+    newCell.addEventListener('click', function () {
+    
+        newCell.classList.toggle('clicked');
+    
+    });
+
     
 }  
 
